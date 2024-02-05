@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "noto sans", sans-serif;
+  background-color: #100810;
+  color: #fff;
+}
+
+header {
+  background-color: #250f25;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+  padding: 7px;
+  background-color: #1008106e;
+  transition: background 1s;
+}
+
+a:hover {
+  background: #3222326e;
+}
+
+.tudo {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.tudo img {
+  margin-bottom: 10px;
+  border-radius: 50%;
+  box-shadow: 0px -4px 20px 8px #280128;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2e182e;
+  box-shadow: 0px 0px 20px 0 #280128;
+  z-index: 1000;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button {
+  width: 125px;
+  height: 25px;
+  margin: auto;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  font-family: "noto sans", sans-serif;
+  color: #fff;
+  background-color: #2e182ed9;
+  box-shadow: 0px 0px 20px 0 #280128;
+  transition: 1s;
+}
+
+button:hover {
+  background: #3222326e;
+}
+
+.nigra {
+  display: flex;
+  flex-direction: column;
+}
+
+.nigraft {
+  width: 400px;
+  height: 400px;
+}
+
+.prego {
+  display: flex;
+  flex-direction: column;
+}
+
+.pregoft {
+  width: 400px;
+  height: 400px;
+}
+
+.orangu {
+  display: flex;
+  flex-direction: column;
+}
+
+.oranguft {
+  width: 400px;
+  height: 400px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  gap: 3px;
+}
+
+#oq {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.caixaoq {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  top: 8%;
+  background-color: #2e182ed9;
+  box-shadow: 0px 0px 20px 0 #280128;
+  border-radius: 5px;
+  width: 1250px;
+  align-items: center;
+  padding: 10px;
+}
+
+.caixaoq p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.caixaoq p1 {
+  font-weight: bold;
+}
+
+.every {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.every button {
+  margin: auto;
+  width: 200px;
+  height: 30px;
+  position: relative;
+  top: 25%;
+  left: 44%;
+}
+
+.coisas {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  top: 20%;
+  background-color: #2e182ed9;
+  box-shadow: 0px 0px 20px 0 #280128;
+  border-radius: 5px;
+  width: 700px;
+  align-items: center;
+  padding: 10px;
+}
+
+.foot {
+  color: white;
+}
